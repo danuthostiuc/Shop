@@ -14,6 +14,3 @@ public/application/js/main.js
 node_modules
 .env
 public/mix-manifest.json
-
-.idea
-node_modules

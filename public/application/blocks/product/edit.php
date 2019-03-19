@@ -6,25 +6,28 @@
 
     <form method="post"
           enctype="multipart/form-data"
-          action="">
+          action="<?= $this->action('save') ?>">
 
         <input type="text" name="title"
-               value=""
+               value="<?= $title ?>"
                placeholder="<?= t("Title") ?>" required>
         <br>
         <input type="text" name="description"
-               value=""
+               value="<?= $description ?>"
                placeholder="<?= t("Description") ?>" required>
         <br>
         <input type="number" name="price"
-               value=""
+               value="<?= $price ?>"
                placeholder="<?= t("Price") ?>" required>
         <br>
         <input
             type="file"
             name="image"
             accept=".png, .gif, .jpeg, .jpg"
-            required>
+            >
         <br>
+        <input class="btn btn-primary"
+               type="submit"
+               value="Save"/>
     </form>
 </div>

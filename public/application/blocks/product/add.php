@@ -20,11 +20,11 @@
                value=""
                placeholder="<?= t("Price") ?>" required>
         <br>
-<!--        <input type="file"
+        <input type="file"
                name="image"
                accept=".png, .gif, .jpeg, .jpg"
                required>
-        <br>-->
+        <br>
         <input class="btn btn-primary"
                type="submit"
                value="Save"/>
