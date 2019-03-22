@@ -21,4 +21,32 @@
 			<notnull/>
 		</field>
 	</table>
+	<table name="btOrderProduct">
+		<field name="bID" type="integer" size="10">
+			<unsigned/>
+			<autoincrement/>
+			<key/>
+		</field>
+		<field name="btOrderID" type="integer" size="10">
+			<unsigned/>
+		</field>
+		<field name="btProductID" type="integer" size="10">
+			<unsigned/>
+		</field>
+	</table>
+	<table name="btOrders">
+		<field name="bID" type="integer" size="10">
+			<unsigned/>
+			<autoincrement/>
+			<key/>
+		</field>
+		<field name="btName" type="string" size="255">
+			<notnull/>
+		</field>
+		<field name="btEmail" type="string" size="255">
+			<notnull/>
+		</field>
+		<field name="btComment" type="string" size="255">
+		</field>
+	</table>
 </schema>
